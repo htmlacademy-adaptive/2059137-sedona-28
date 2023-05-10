@@ -1,31 +1,3 @@
-@font-face {
-  font-style: normal;
-  font-weight: 400;
-  font-family: "Pt Sans";
-  src: url("../fonts/ptsans.woff") format("woff");
-  font-display: swap;
-}
-@font-face {
-  font-style: normal;
-  font-weight: 400;
-  font-family: "Pt Sans";
-  src: url("../fonts/ptsans.woff2") format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-style: normal;
-  font-weight: 700;
-  font-family: "Pt Sans";
-  src: url("../fonts/ptsansbold.woff") format("woff");
-  font-display: swap;
-}
-@font-face {
-  font-style: normal;
-  font-weight: 700;
-  font-family: "Pt Sans";
-  src: url("../fonts/ptsansbold.woff2") format("woff2");
-  font-display: swap;
-}
 .img {
   max-width: 100%;
   height: auto;
@@ -60,6 +32,34 @@
           clip-path: inset(100%);
 }
 
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Pt Sans";
+  src: url("../fonts/ptsans.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Pt Sans";
+  src: url("../fonts/ptsans.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Pt Sans";
+  src: url("../fonts/ptsansbold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Pt Sans";
+  src: url("../fonts/ptsansbold.woff2") format("woff2");
+  font-display: swap;
+}
 .advantages__title {
   text-align: center;
 }
@@ -146,7 +146,7 @@ footer__hashtag {
   padding: 29px;
   text-align: center;
 }
-.search__title, .search__button {
+.search__title {
   font-size: 21px;
   line-height: 26px;
 }
@@ -155,6 +155,8 @@ footer__hashtag {
   line-height: 21px;
 }
 .search__button {
+  font-size: 21px;
+  line-height: 26px;
   padding: 16px;
   color: #ffffff;
   text-decoration: none;
