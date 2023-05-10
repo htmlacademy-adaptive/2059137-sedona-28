@@ -2,7 +2,7 @@
   padding: 29px;
   text-align: center;
 
-  &__title,&__button {
+  &__title {
     font-size: 21px;
     line-height: 26px;
   }
@@ -13,6 +13,8 @@
   }
 
   &__button {
+    font-size: 21px;
+    line-height: 26px;
     padding: 16px;
     color: #ffffff;
     text-decoration: none;

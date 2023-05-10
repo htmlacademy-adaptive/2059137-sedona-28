@@ -1,7 +1,7 @@
-// Начните писать стили здесь
+// Подключение базовых блоков
 @import '../sass/base/fonts.scss';
 @import '../sass/base/base.scss';
-
+// Подключение БЭМ-блоков
 @import '../sass/blocks/advantages.scss';
 @import '../sass/blocks/developer.scss';
 @import '../sass/blocks/footer.scss';
