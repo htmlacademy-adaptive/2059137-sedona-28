@@ -1,0 +1,13 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__link {
+    display: block;
+    min-width: 48px;
+    min-height: 48px;
+    margin-right: 6px;
+    background-color: #81b3d2;
+  }
+}

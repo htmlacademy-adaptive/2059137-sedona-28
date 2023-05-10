@@ -1,0 +1,23 @@
+.form {
+  &__title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  &__contact-item {
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+  }
+
+  &__options-item {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: none;
+  }
+
+  &__container--submit {
+    display: flex;
+  }
+}

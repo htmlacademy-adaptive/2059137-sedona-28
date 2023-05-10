@@ -1,0 +1,22 @@
+.search {
+  padding: 29px;
+  text-align: center;
+
+  &__title,&__button {
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  &__button {
+    padding: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #81b3d2;
+  }
+}

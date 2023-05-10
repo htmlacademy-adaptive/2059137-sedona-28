@@ -1,0 +1,14 @@
+.gallery {
+  &__item {
+    padding-left: 20px;
+  }
+
+  &__title {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  &__photographer {
+    text-transform: none;
+  }
+}

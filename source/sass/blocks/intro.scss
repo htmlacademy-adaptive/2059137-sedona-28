@@ -1,0 +1,28 @@
+.intro {
+  &__background {
+    position: relative;
+    padding: 90px 19px 85px;
+    color: #ffffff;
+    background-color: #94989b;
+    background-image: url("../img/intro-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__description {
+    padding-left: 18px;
+    padding-right: 18px;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  &__text {
+    color: #333333;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
