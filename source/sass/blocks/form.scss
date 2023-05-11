@@ -1,23 +1,44 @@
-.form {
-  &__title {
-    font-size: 18px;
-    text-align: center;
-  }
+.form__title {
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
 
-  &__contact-item {
-    font-size: 14px;
-    line-height: 21px;
-    color: #333333;
-  }
+  text-align: center;
+  text-transform: uppercase;
+}
 
-  &__options-item {
-    font-size: 18px;
-    line-height: 26px;
-    font-weight: 700;
-    text-transform: none;
-  }
+.form__contact-label {
+  text-transform: uppercase;
+}
 
-  &__container--submit {
-    display: flex;
-  }
+.form__contact-input {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+
+  color: #000000;
+}
+
+.form__options-label {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+
+  color: #000000;
+}
+
+.form__message {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: "Pt Sans", "Arial", sans-serif;
+  color: #000000;
+}
+
+.form__note {
+  font-size: 12px;
+  line-height: 21px;
+  color: rgba(51, 51, 51, 0.6);
+
+  text-transform: uppercase;
 }

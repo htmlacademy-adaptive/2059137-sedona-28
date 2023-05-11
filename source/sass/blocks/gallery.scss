@@ -1,14 +1,14 @@
-.gallery {
-  &__item {
-    padding-left: 20px;
-  }
+.gallery__item {
+  padding: 24px 20px 10px;
 
-  &__title {
-    font-size: 14px;
-    line-height: 21px;
-  }
+  border-bottom: 1px solid #e5e5e5;
+}
 
-  &__photographer {
-    text-transform: none;
-  }
+.gallery__title {
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  text-transform: uppercase;
 }

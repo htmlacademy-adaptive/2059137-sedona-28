@@ -1,28 +1,29 @@
-.intro {
-  &__background {
-    position: relative;
-    padding: 90px 19px 85px;
-    color: #ffffff;
-    background-color: #94989b;
-    background-image: url("../img/intro-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.intro__background {
+  position: relative;
+  padding: 90px 19px 85px;
+  color: #ffffff;
+  background-color: #94989b;
+  background-image: url("../img/intro-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  &__description {
-    padding-left: 18px;
-    padding-right: 18px;
-    text-align: center;
-  }
+.intro__description {
+  padding: 34px 30px 16px;
 
-  &__title {
-    font-size: 18px;
-    line-height: 26px;
-  }
+  text-align: center;
+  text-transform: uppercase;
+}
 
-  &__text {
-    color: #333333;
-    font-size: 14px;
-    line-height: 21px;
-  }
+.intro__title {
+  margin: 0 0 36px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.intro__text {
+  margin: 0;
 }
