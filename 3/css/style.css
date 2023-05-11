@@ -176,12 +176,21 @@ img {
 }
 
 .video {
+  padding: 18px 20px 2px;
   text-align: center;
+  text-transform: uppercase;
 }
+
 .video__title {
-  margin: 0;
+  margin: 0 0 26px;
   font-size: 18px;
   line-height: 26px;
+  color: #000000;
+}
+
+.video__text {
+  margin: 0 0 38px;
+  padding: 0 10px;
 }
 
 .form__title {
@@ -236,6 +245,12 @@ img {
   color: #000000;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.footer__developer {
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .social {
