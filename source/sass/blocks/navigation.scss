@@ -1,0 +1,15 @@
+.navigation__link {
+  display: inline-block;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  vertical-align: baseline;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navigation__link--current {
+  color: #766357;
+}
