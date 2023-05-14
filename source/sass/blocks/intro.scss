@@ -1,11 +1,13 @@
 .intro__background {
   position: relative;
   padding: 90px 19px 85px;
+  text-align: center;
   color: #ffffff;
   background-color: #94989b;
   background-image: url("../img/intro-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  max-height: 389px;
 }
 
 .intro__description {

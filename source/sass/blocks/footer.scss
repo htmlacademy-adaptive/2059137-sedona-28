@@ -1,8 +1,19 @@
 .footer {
+  padding: 33px 18px;
   text-align: center;
+
+  @media (min-width: 768px) {
+    padding: 36px 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
 }
 
 .footer__hashtag {
+  margin-bottom: 30px;
+
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
@@ -12,6 +23,8 @@
 }
 
 .footer__developer {
+  margin-top: 30px;
+
   color: #000000;
   text-transform: uppercase;
   text-decoration: none;

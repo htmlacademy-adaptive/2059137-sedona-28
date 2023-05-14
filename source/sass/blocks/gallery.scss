@@ -12,3 +12,10 @@
   color: #000000;
   text-transform: uppercase;
 }
+
+.gallery__list {
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

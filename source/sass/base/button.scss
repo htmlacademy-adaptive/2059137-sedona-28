@@ -16,4 +16,8 @@
   background-color: #81b3d2;
   border: none;
   cursor: pointer;
+
+  @media (min-width: 768px) {
+    width: 458px;
+  }
 }

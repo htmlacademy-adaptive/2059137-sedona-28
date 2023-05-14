@@ -42,3 +42,11 @@
 
   text-transform: uppercase;
 }
+
+.form__wrapper {
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 295px 295px;
+    gap: 58px;
+  }
+}
