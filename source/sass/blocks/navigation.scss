@@ -1,3 +1,17 @@
+.navigation { //применила свойство для navigation--open, чтобы было видно текст навигации
+  background-color: #81b3d2;
+}
+
+.navigation__logo {
+  position: absolute;
+  z-index: 1;
+
+  display: block;
+  width: 185px;
+  height: 96px;
+  margin-bottom: -40px;
+}
+
 .navigation__link {
   display: inline-block;
 
@@ -6,10 +20,61 @@
   line-height: 26px;
   vertical-align: baseline;
   color: #ffffff;
+  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
 }
 
-.navigation__link--current {
-  color: #766357;
+@media (min-width: 768px) {
+  .navigation {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+
+    background-color: #ffffff;
+  }
+
+  .navigation__toggle {
+    display: none;
+  }
+
+  .navigation__list {
+    display: flex;
+    justify-content: space-between;
+    width: 708px;
+    margin: 0 auto;
+  }
+
+  .navigation__link {
+    padding: 18px 20px 17px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+
+  .navigation__link--current {
+    color: #766357;
+  }
+}
+
+@media (min-width: 1200px) {
+
+
+  .navigation__list {
+    display: flex;
+    justify-content: space-between;
+    width: 1070px;
+    margin: 0 auto;
+  }
+
+  .navigation__link {
+    padding: 18px 20px 17px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+
+  .navigation__link--current {
+    color: #766357;
+  }
 }
