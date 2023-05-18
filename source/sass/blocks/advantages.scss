@@ -10,13 +10,6 @@
   }
 }
 
-.advantages__container {
-  @media (min-width: 768px) {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-  }
-}
-
 .advantages__item {
   position: relative;
 }
@@ -234,14 +227,6 @@
     padding: 170px 55px 60px;
 
     background-position: center 70px;
-  }
-}
-
-.advantages__services-item .advantages__title {
-  margin-bottom: 16px;
-
-  @media (min-width: 768px) {
-    margin-bottom: 22px;
   }
 }
 

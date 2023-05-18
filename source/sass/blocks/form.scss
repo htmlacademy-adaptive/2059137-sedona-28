@@ -132,7 +132,6 @@
   padding-left: 16px;
 
   text-transform: uppercase;
-
 }
 
 .form__contact-input {
@@ -229,7 +228,7 @@
 .form__options-input[type="radio"] {
   border-radius: 50%;
 
-  &:checked:after {
+  &:checked::after {
     content: "";
     position: absolute;
     top: 50%;
