@@ -1,6 +1,4 @@
 .socials {
-  margin-bottom: 30px;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -20,4 +18,8 @@
   color: #ffffff;
 
   background-color: #81b3d2;
+}
+
+.socials__link svg {
+  fill: currentColor;
 }
