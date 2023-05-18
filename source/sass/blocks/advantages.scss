@@ -17,20 +17,46 @@
   }
 }
 
-.advantages__item--full + .advantages__item--full .advantages__container {
-  @media (min-width: 768px) {
-    grid-template-columns: 2fr 1fr;
-  }
-}
-
 .advantages__item {
   position: relative;
 }
 
-
 .advantages__item--full {
   @media (min-width: 768px) {
     grid-column: 1/-1;
+  }
+}
+
+.advantages__item:not(.advantages__item--full)::after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  left: 20px;
+
+  height: 1px;
+
+  background-color: #d6d6d6;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.advantages__item:last-child::after {
+  display: none;
+}
+
+.advantages__container {
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+.advantages__item--full + .advantages__item--full .advantages__container {
+  @media (min-width: 768px) {
+    grid-template-columns: 2fr 1fr;
   }
 }
 
@@ -118,5 +144,147 @@
     max-width: 175px;
     margin: 0 auto 12px;
     padding: 0 10px;
+  }
+}
+
+.advantages__container .advantages__title {
+  color: #ffffff;
+}
+
+.advantages__item p {
+  margin: 0;
+}
+
+.advantages__description br {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+
+.advantages__container p + p {
+  margin-top: 17px;
+
+  @media (min-width: 768px) {
+    margin-top: 23px;
+  }
+}
+
+.advantages__image {
+  width: 100%;
+  height: 260px;
+
+  @media (min-width: 768px) {
+    height: auto;
+  }
+}
+
+.advantages__image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.advantages__item--full + .advantages__item--full .advantages__image {
+  @media (min-width: 768px) {
+    order: -1;
+  }
+}
+
+.advantages__services {
+  padding-bottom: 44px;
+
+  background-color: #ffffff;
+
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 0;
+  }
+}
+
+.advantages__services-item .advantages__title {
+  margin-bottom: 16px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 22px;
+  }
+}
+
+.advantages__services-item {
+  padding: 33px 15px 0 65px;
+
+  text-transform: uppercase;
+
+  background-repeat: no-repeat;
+  background-position: 18px 23px;
+  background-size: 40px 40px;
+
+  @media (min-width: 768px) {
+    min-height: 331px;
+    padding: 157px 33px 60px;
+
+    text-align: center;
+
+    background-position: center 61px;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 170px 55px 60px;
+
+    background-position: center 70px;
+  }
+}
+
+.advantages__services-item .advantages__title {
+  margin-bottom: 16px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 22px;
+  }
+}
+
+.advantages__services-item--accommodation {
+  background-image: url("../img/svg/icon-house.svg");
+
+  @media (min-width: 768px) {
+    background-size: 77px 72px;
+  }
+
+  @media (min-width: 1200px) {
+    background-size: 79px 72px;
+  }
+}
+
+.advantages__services-item--food {
+  background-image: url("../img/svg/icon-food.svg");
+
+  @media (min-width: 768px) {
+    background-size: 80px 68px;
+  }
+
+  @media (min-width: 1200px) {
+    background-size: 73px 69px;
+  }
+}
+
+.advantages__services-item--souvenirs {
+  background-image: url("../img/svg/icon-gift.svg");
+
+  @media (min-width: 768px) {
+    background-size: 67px 75px;
+  }
+
+  @media (min-width: 1200px) {
+    background-size: 77px 75px;
+  }
+}
+
+.advantages__services-item--souvenirs br {
+  display: none;
+
+  @media (min-width: 1200px) {
+    display: block;
   }
 }

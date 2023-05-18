@@ -1,1 +1,27 @@
-// пока не нашла применения
+.developer {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #000000;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: #81b3d2;
+
+    outline: none;
+  }
+
+  &:active {
+    color: #b3b3b3;
+  }
+}
+
+.developer svg {
+  fill: currentColor;
+}
+
+.developer__text {
+  margin-right: 12px;
+}
