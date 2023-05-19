@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: Седона</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="img/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -58,7 +60,11 @@
                 <p class="advantages__text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
               </div>
               <div class="advantages__image">
-                <img src="img/advantages-city-mobile.jpg" alt="Фото здания в городе" width="320" height="260">
+                <picture>
+                  <source media="(min-width: 1200px)" srcset="img/advantages-1-desktop.jpg 1x, img/advantages-1-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="img/advantages-1-tablet.jpg 1x, img/advantages-1-tablet@2x.jpg 2x">
+                  <img src="img/advantages-1-mobile.jpg" srcset="img/advantages-1-mobile@2x.jpg 2x" width="320" height="260" alt="Фото здания в городе.">
+                </picture>
               </div>
             </div>
 
@@ -87,7 +93,11 @@
                 <p class="advantages__text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
               </div>
               <div class="advantages__image">
-                <img src="img/advantages-bridge-mobile.jpg" alt="Фото моста Дьявола" width="320" height="260">
+                <picture>
+                  <source media="(min-width: 1200px)" srcset="img/advantages-2-desktop.jpg 1x, img/advantages-2-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="img/advantages-2-tablet.jpg 1x, img/advantages-2-tablet@2x.jpg 2x">
+                  <img src="img/advantages-2-mobile.jpg" srcset="img/advantages-2-mobile@2x.jpg 2x" width="320" height="260" alt="Мост Дьявола.">
+                </picture>
               </div>
             </div>
           </li>
@@ -126,6 +136,9 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3382454.834743294!2d-114.29960221071269!3d34.93412826054473!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sam!4v1682714552751!5m2!1sru!2sam" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <noscript>
           <a class="map__img" href="#">
+            <picture>
+              <img src="img/map.jpg" srcset="img/map@2x.jpg 2x" width="320" height="350" alt="Карта.">
+            </picture>
             <img src="img/map.jpg" width="320" height="350" alt="Карта">
           </a>
         </noscript>
