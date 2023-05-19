@@ -16,3 +16,11 @@
 .search__text {
   margin: 0 0 32px;
 }
+
+.search__text br {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}

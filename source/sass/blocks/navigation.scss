@@ -140,7 +140,6 @@
   line-height: 26px;
   vertical-align: baseline;
   color: #ffffff;
-  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
 
@@ -178,5 +177,7 @@
 
   @media (min-width: 768px) {
     position: static;
+
+    display: grid;
   }
 }
