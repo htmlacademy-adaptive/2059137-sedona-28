@@ -16,6 +16,10 @@
   }
 }
 
+.footer--page {
+  padding: 31px;
+}
+
 .footer__hashtag {
   display: inline-block;
   margin-bottom: 30px;
@@ -28,6 +32,17 @@
 
   @media (min-width: 768px) {
     margin-bottom: 0;
+  }
+
+  &:hover,
+  &:focus {
+    color: #81b3d2;
+
+    outline: none;
+  }
+
+  &:active {
+    color: #b3b3b3;
   }
 }
 

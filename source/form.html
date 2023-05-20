@@ -83,7 +83,9 @@
             </fieldset>
           </div>
           <fieldset class="form__container form__container--impression">
-            <h2 class="form__title">Ваше общее впечатление:</h2>
+            <h2 class="form__title form__title--lines">
+              <span>Ваше общее впечатление:</span>
+            </h2>
             <ul class="form__options list-reset">
               <li class="form__options-item">
                 <input class="form__options-input form__options-input--radio" type="radio" name="impression" value="Положительное" id="positive" checked>
@@ -100,7 +102,9 @@
             </ul>
           </fieldset>
           <fieldset class="form__container form__container--attractions">
-            <h2 class="form__title">Посещенные <br>достопримечательности:</h2>
+            <h2 class="form__title form__title--lines">
+              <span>Посещенные достопримечательности:</span>
+            </h2>
             <ul class="form__options list-reset">
               <li class="form__options-item">
                 <input class="form__options-input form__options-input--check" type="checkbox" name="devil-bridge" value="Мост-дьявола" id="devil-bridge" checked>
@@ -121,7 +125,9 @@
             </ul>
           </fieldset>
           <fieldset class="form__container form__container--message">
-            <h2 class="form__title">Опишите свои эмоции:</h2>
+            <h2 class="form__title form__title--lines">
+              <span>Опишите свои эмоции:</span>
+            </h2>
             <textarea class="form__message" id="message" name="message" placeholder="Опишите подробно все свои восторги"></textarea>
           </fieldset>
           <fieldset class="form__container form__container--submit">
@@ -169,6 +175,28 @@
         </svg>
       </a>
     </footer>
+
+    <section class="modal">
+      <div class="modal__container modal__container-error">
+        <div class="modal__wrapper-text">
+          <h2 class="modal__title">Что-то пошло не&nbsp;так!</h2>
+          <p class="modal__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+        </div>
+        <div class="modal__wrapper-btn">
+          <button class="modal__button button" type="button">Ок</button>
+        </div>
+      </div>
+
+      <div class="modal__container modal__container-success">
+        <div class="modal__wrapper-text">
+          <h2 class="modal__title">Ваш отзыв отправлен!</h2>
+          <p class="modal__text">Спасибо за ваше участие, ваш отзыв уже поступил к нам. В&nbsp;ближайшее время мы опубликуем его на сайте.</p>
+        </div>
+        <div class="modal__wrapper-btn">
+          <button class="modal__button button" type="button">Закрыть окно</button>
+        </div>
+      </div>
+    </section>
 
     <script src="js/script.js"></script>
   </body>
