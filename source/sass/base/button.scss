@@ -20,4 +20,21 @@
   @media (min-width: 768px) {
     width: 458px;
   }
+
+  &:hover,
+  &:focus {
+    background-color: #669ec0;
+    outline: none;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+
+    background-color: #5496bd;
+  }
+
+  &:disabled,
+  &--disabled {
+    background-color: #e5e5e5;
+  }
 }

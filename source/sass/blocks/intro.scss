@@ -57,20 +57,16 @@
   padding-top: 52px;
   padding-bottom: 67px;
 
-  background-size: 282%;
+  background-position: bottom;
 
   @media (min-width: 768px) {
     padding-top: 95px;
     padding-bottom: 117px;
-
-    background-size: 156%;
   }
 
   @media (min-width: 1200px) {
     padding-top: 102px;
     padding-bottom: 121px;
-
-    background-size: cover;
   }
 }
 

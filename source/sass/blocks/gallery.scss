@@ -48,6 +48,16 @@
   @media (min-width: 768px) {
     height: 267px;
   }
+
+  &:hover,
+  &:focus {
+    outline: none;
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .gallery__item:first-child .gallery__image {
@@ -173,6 +183,16 @@
 
   @media (min-width: 1200px) {
     color: #ffffff;
+  }
+
+  &:hover,
+  &:focus {
+    outline: none;
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
   }
 }
 

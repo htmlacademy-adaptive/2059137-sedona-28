@@ -5,7 +5,6 @@
   text-transform: uppercase;
 
   @media (min-width: 768px) {
-    // padding: 11px 60px 48px;
     padding: 10px 60px 45px;
   }
 
@@ -86,5 +85,15 @@
   background-repeat: no-repeat;
   border: none;
   transform: translate(-50%, -50%);
+  cursor: pointer;
   opacity: 0.7;
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
